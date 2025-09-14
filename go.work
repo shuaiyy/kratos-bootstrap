@@ -1,0 +1,36 @@
+go 1.24.6
+
+use (
+	.
+	./api
+	./bootstrap
+	./cache/redis
+	./database/cassandra
+	./database/clickhouse
+	./database/elasticsearch
+	./database/ent
+	./database/gorm
+	./database/influxdb
+	./database/mongodb
+	./logger
+	./oss/minio
+	./registry
+	./registry/consul
+	./registry/etcd
+	./registry/eureka
+	./registry/kubernetes
+	./registry/local
+	./registry/nacos
+	./registry/polaris
+	./registry/servicecomb
+	./registry/zookeeper
+	./remoteconfig/apollo
+	./remoteconfig/consul
+	./remoteconfig/etcd
+	./remoteconfig/kubernetes
+	./remoteconfig/nacos
+	./remoteconfig/polaris
+	./rpc
+	./tracer
+	./utils
+)

@@ -2,7 +2,10 @@ module github.com/shuaiyy/kratos-bootstrap/rpc
 
 go 1.24.6
 
-replace github.com/shuaiyy/kratos-bootstrap/api => ../api
+replace (
+	github.com/shuaiyy/kratos-bootstrap/api => ../api
+	github.com/shuaiyy/kratos-bootstrap/utils => ../utils
+)
 
 require (
 	buf.build/go/protovalidate v0.14.0
@@ -12,7 +15,7 @@ require (
 	github.com/shuaiyy/kratos-bootstrap/api v0.0.1
 	github.com/shuaiyy/kratos-bootstrap/utils v0.0.1
 	google.golang.org/grpc v1.75.0
-	google.golang.org/protobuf v1.36.8
+	google.golang.org/protobuf v1.36.9
 )
 
 require (

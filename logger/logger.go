@@ -6,13 +6,13 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 
-	"github.com/tx7do/kratos-bootstrap/logger/fluent"
-	"github.com/tx7do/kratos-bootstrap/logger/logrus"
-	"github.com/tx7do/kratos-bootstrap/logger/tencent"
-	"github.com/tx7do/kratos-bootstrap/logger/zap"
+	"github.com/shuaiyy/kratos-bootstrap/logger/fluent"
+	"github.com/shuaiyy/kratos-bootstrap/logger/logrus"
+	"github.com/shuaiyy/kratos-bootstrap/logger/tencent"
+	"github.com/shuaiyy/kratos-bootstrap/logger/zap"
 
-	conf "github.com/tx7do/kratos-bootstrap/api/gen/go/conf/v1"
-	"github.com/tx7do/kratos-bootstrap/utils"
+	conf "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1"
+	"github.com/shuaiyy/kratos-bootstrap/utils"
 )
 
 // NewLogger 创建一个新的日志记录器
