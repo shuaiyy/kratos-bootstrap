@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+package conf;
+
+option go_package = "github.com/shuaiyy/kratos-bootstrap/api/gen/go/conf/v1;conf";
+
+import "google/protobuf/duration.proto";
+
+// 配置服务
+message RemoteConfig {
+  message Nacos {
+    string address = 1; // 服务端地址
+    uint64 port = 2; // 服务端端口
+    string key = 3; // 配置键
+    string username = 4; // 用户名
+    string password = 5; // 密码
+    string namespace_id = 6; // 命名空间ID
+  }
+
+  message Etcd {
+    repeated string endpoints = 1; // 服务端地址
+    google.protobuf.Duration timeout = 2; // 超时时间
+    string key = 3; // 配置键
+  }
+
+  message Consul {
+    string scheme = 1;  // 网络样式
+    string address = 2; // 服务端地址
+    string key = 3; // 配置键
+  }
+
+  message Apollo {
+    string endpoint = 1; // 服务端地址
+    string app_id = 2; // 应用ID
+    string cluster = 3; // 集群
+    string namespace = 4; // 命名空间
+    string secret = 5; // 密钥
+  }
+
+  message Kubernetes {
+    string namespace = 1; // 命名空间
+  }
+
+  message Polaris {
+
+  }
+
+  string type = 1; // 配置类型
+
+  optional Etcd etcd = 2;
+  optional Consul consul = 3;
+  optional Nacos nacos = 4;
+  optional Apollo apollo = 6;
+  optional Kubernetes kubernetes = 7;
+  optional Polaris polaris = 8;
+}
