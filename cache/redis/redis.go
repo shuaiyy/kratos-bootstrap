@@ -13,6 +13,7 @@ import (
 func NewClient(conf *conf.Data, logger *log.Helper) (rdb *redis.Client) {
 	if rdb = redis.NewClient(&redis.Options{
 		Addr:         conf.GetRedis().GetAddr(),
+		Username:     conf.GetRedis().GetUsername(),
 		Password:     conf.GetRedis().GetPassword(),
 		DB:           int(conf.GetRedis().GetDb()),
 		DialTimeout:  conf.GetRedis().GetDialTimeout().AsDuration(),
