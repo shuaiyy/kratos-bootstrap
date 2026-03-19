@@ -14,8 +14,8 @@ require (
 	github.com/go-chassis/sc-client v0.7.0
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/gofrs/uuid v4.4.0+incompatible
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry v0.0.2
 	github.com/stretchr/testify v1.11.1
 )
 

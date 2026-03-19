@@ -17,8 +17,8 @@ require (
 	github.com/go-kratos/kratos/contrib/log/tencent/v2 v2.0.0-20250912104010-25b6c0fb9f38
 	github.com/go-kratos/kratos/contrib/log/zap/v2 v2.0.0-20250912104010-25b6c0fb9f38
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.2
 	github.com/sirupsen/logrus v1.9.3
 	go.uber.org/zap v1.27.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1

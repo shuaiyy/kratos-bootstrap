@@ -8,8 +8,8 @@ replace (
 )
 
 require (
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.2
 	go.opentelemetry.io/otel v1.38.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.38.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.38.0

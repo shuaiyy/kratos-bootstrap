@@ -6,7 +6,7 @@ replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
 	go.etcd.io/etcd/client/v3 v3.6.4
 	google.golang.org/grpc v1.75.1
 )

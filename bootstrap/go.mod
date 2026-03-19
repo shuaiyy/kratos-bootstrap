@@ -32,22 +32,22 @@ require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/google/subcommands v1.2.0
 	github.com/olekukonko/tablewriter v1.0.9
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/logger v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/consul v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/etcd v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/eureka v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/nacos v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/servicecomb v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/registry/zookeeper v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/apollo v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/consul v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/etcd v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/nacos v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/polaris v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/tracer v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/logger v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/consul v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/etcd v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/eureka v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/nacos v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/servicecomb v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/registry/zookeeper v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/apollo v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/consul v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/etcd v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/nacos v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/remoteconfig/polaris v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/tracer v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.2
 	github.com/spf13/cobra v1.10.1
 	golang.org/x/tools v0.37.0
 )

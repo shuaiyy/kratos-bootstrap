@@ -7,7 +7,7 @@ replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 require (
 	github.com/apolloconfig/agollo/v4 v4.4.0
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
 )
 
 require (

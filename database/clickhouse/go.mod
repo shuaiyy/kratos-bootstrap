@@ -10,8 +10,8 @@ replace (
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.40.3
 	github.com/go-kratos/kratos/v2 v2.9.1
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.2
 	github.com/stretchr/testify v1.11.1
 	google.golang.org/protobuf v1.36.9
 )

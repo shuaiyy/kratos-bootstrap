@@ -7,8 +7,8 @@ replace github.com/zbl-jerry/kratos-bootstrap/api => ../../api
 require (
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/gocql/gocql v1.7.0
-	github.com/zbl-jerry/kratos-bootstrap/api v0.0.1
-	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.1
+	github.com/zbl-jerry/kratos-bootstrap/api v0.0.2
+	github.com/zbl-jerry/kratos-bootstrap/utils v0.0.2
 )
 
 require (
